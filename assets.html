@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assets - Modding Community</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">SYN</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="assets.html">Assets</a></li>
+        <li><a href="logiciels.html">Logiciels</a></li>
+      </ul>
+      <button class="login-btn" onclick="window.location.href='login.html'">Se connecter</button>
+    </nav>
+  </header>
+
+  <section class="page-content">
+    <h1>Assets disponibles</h1>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Recherche..." />
+      <select>
+        <option value="">Filtres</option>
+        <option value="mods">Mods</option>
+        <option value="textures">Textures</option>
+        <option value="sons">Sons</option>
+      </select>
+    </div>
+
+    <div class="card-grid">
+      <div class="asset-card">
+        <div class="asset-image" style="background-image: url('https://via.placeholder.com/400x400?text=Asset+1');">
+          <div class="overlay">
+            <h3>Perks icônes - Ganja Weeds</h3>
+            <p>Découvrez comment obtenir les perks stylés pour vos mods BO3.</p>
+            <a href="#">Accéder</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="asset-card">
+        <div class="asset-image" style="background-image: url('https://via.placeholder.com/400x400?text=Asset+2');">
+          <div class="overlay">
+            <h3>BO3 Camo Pack</h3>
+            <p>Pack de textures camo en ultra HD avec reflets dynamiques.</p>
+            <a href="#">Accéder</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
